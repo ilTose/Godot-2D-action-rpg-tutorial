@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://oveu4jg3o0u7"]
+
+[ext_resource type="Texture2D" uid="uid://b50mh482tlkx1" path="res://art/NinjaAdventure/Actor/Characters/GreenNinja/SpriteSheet.png" id="1_ig8fn"]
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ig8fn")
+hframes = 4
+vframes = 7
