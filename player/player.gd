@@ -5,11 +5,11 @@ extends CharacterBody2D
 
 
 func handle_input():
-	var move_direction = Input.get_vector( "ui_left", "ui_right", "ui_up", "ui_down")
+	var move_direction = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 	velocity = move_direction * speed
 	
 func update_animation():
-	if velocity.length() == 0:
+	if velocity.length() == 0 and animations.is_playing():
 		animations.stop()
 	else:
 		var direction = "down"
