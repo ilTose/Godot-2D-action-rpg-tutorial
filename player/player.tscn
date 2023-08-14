@@ -103,6 +103,7 @@ z_index = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_ig8fn")
+offset = Vector2(0, -8)
 hframes = 4
 vframes = 7
 
