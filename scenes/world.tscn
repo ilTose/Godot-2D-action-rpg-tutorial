@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://comuxj3m1sgen"]
+[gd_scene load_steps=10 format=3 uid="uid://comuxj3m1sgen"]
 
 [ext_resource type="PackedScene" uid="uid://oveu4jg3o0u7" path="res://player/player.tscn" id="1_myuji"]
 [ext_resource type="Script" path="res://player/player.gd" id="2_tbwsb"]
 [ext_resource type="Texture2D" uid="uid://kdwnhti64uip" path="res://art/NinjaAdventure/Backgrounds/Tilesets/TilesetFloor.png" id="3_4u21c"]
 [ext_resource type="Texture2D" uid="uid://ccsbfadipv08s" path="res://art/NinjaAdventure/Backgrounds/Tilesets/TilesetNature.png" id="4_i4pwp"]
+[ext_resource type="Texture2D" uid="uid://3u2ypklpld7y" path="res://art/NinjaAdventure/Backgrounds/Animated/Plant/animated flower.png" id="5_w0xgp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3qtii"]
 texture = ExtResource("3_4u21c")
@@ -736,9 +737,18 @@ texture = ExtResource("4_i4pwp")
 10:20/0 = 0
 11:20/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mf2ru"]
+texture = ExtResource("5_w0xgp")
+0:0/animation_frame_0/duration = 0.4
+0:0/animation_frame_1/duration = 0.4
+0:0/animation_frame_2/duration = 0.4
+0:0/animation_frame_3/duration = 0.4
+0:0/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_d7jeo"]
 sources/0 = SubResource("TileSetAtlasSource_3qtii")
 sources/1 = SubResource("TileSetAtlasSource_s80r1")
+sources/6 = SubResource("TileSetAtlasSource_mf2ru")
 
 [node name="World" type="Node2D"]
 
@@ -757,7 +767,7 @@ layer_1/modulate = Color(1, 1, 1, 1)
 layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = 0
-layer_1/tile_data = PackedInt32Array(131074, 393217, 11, 393227, 393217, 11, 524300, 393217, 11, 524288, 196609, 11, 458753, 196609, 11, 131085, 196609, 11, 65549, 196609, 11, 196617, 65537, 11, 131081, 65537, 11, 327686, 65537, 11, 131077, 65537, 11, 196621, 1, 11, 327694, 1, 11)
+layer_1/tile_data = PackedInt32Array(131074, 393217, 11, 393227, 393217, 11, 524300, 393217, 11, 524288, 196609, 11, 458753, 196609, 11, 131085, 196609, 11, 65549, 196609, 11, 196617, 65537, 11, 131081, 65537, 11, 327686, 65537, 11, 131077, 65537, 11, 196621, 1, 11, 327694, 1, 11, 393220, 6, 0, 393228, 6, 0, 524301, 6, 0, 131073, 6, 0)
 layer_2/name = "trees"
 layer_2/enabled = true
 layer_2/modulate = Color(1, 1, 1, 1)

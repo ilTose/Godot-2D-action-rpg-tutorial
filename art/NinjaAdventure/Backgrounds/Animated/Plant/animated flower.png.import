@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3u2ypklpld7y"
-path="res://.godot/imported/SpriteSheet16x16.png-6724fcbb0f23fbd40dd173ba64d4de07.ctex"
+path="res://.godot/imported/animated flower.png-5f78e6ddab631ff7d4706f270226afca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/NinjaAdventure/Backgrounds/Animated/Plant/SpriteSheet16x16.png"
-dest_files=["res://.godot/imported/SpriteSheet16x16.png-6724fcbb0f23fbd40dd173ba64d4de07.ctex"]
+source_file="res://art/NinjaAdventure/Backgrounds/Animated/Plant/animated flower.png"
+dest_files=["res://.godot/imported/animated flower.png-5f78e6ddab631ff7d4706f270226afca.ctex"]
 
 [params]
 
